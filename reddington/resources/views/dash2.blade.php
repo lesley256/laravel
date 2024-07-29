@@ -70,6 +70,7 @@
         </div>
     </main>
 
+<button class="quit btn btn-primary btn-sm mx-4"> <a href="{{ route('logout') }}">Log Out</a></button>
     <footer class="bg-light text-center py-3">
         <p>&copy; 2024 Event Management System</p>
     </footer>

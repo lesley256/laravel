@@ -15,7 +15,7 @@
         <div class="child">
             <h2>Sign Up</h2>
             <span>
-                <form action="{{ route('save') }}" method="POST">
+                <form action="{{ route('login') }}" method="POST">
                     @csrf
                     {{-- it has to be there for form submission in laravel  --}}
                     <label for="name">Name:</label><br>
@@ -30,6 +30,7 @@
 
 
                 <button type="submit" class="my-4">
+                    
                     Login
                 </button>
 

@@ -31,6 +31,6 @@ class UsersController extends Controller
     public function index()
     {
         $users = User::all();
-        return view('index', compact('users'));
+        return view('dash2', compact('users'));
     }
 }

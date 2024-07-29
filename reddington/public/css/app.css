@@ -77,6 +77,10 @@ main {
     font-weight: bold;
 }
 
+.quit{
+    border-radius: 10px;
+    
+}
 footer {
     background-color: #f8f9fa;
     padding: 1rem 0;
